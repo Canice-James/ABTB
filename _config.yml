@@ -44,12 +44,16 @@ markdown: kramdown
 plugins:
   - jekyll-feed
 
+collections_dir: _collections
+
 collections:
   posts:
     output: false
   about-us-blocks:
     output: false
   services-blocks:
+    output: false
+  forms:
     output: false
 
 # Exclude from processing.
