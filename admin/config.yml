@@ -30,7 +30,7 @@ collections:
       - {label: "Icon", name: "icon", widget: "string"}
   - name: "service-blocks" 
     label: "Service Blocks (Homepage)" 
-    folder: "_collections/_service-blocks/" 
+    folder: "_collections/_services-blocks/" 
     create: true 
     slug: "{{slug}}" 
     fields: 
