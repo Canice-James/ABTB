@@ -1,8 +1,4 @@
 ---
-title: Vehicle Form 1
-image: 
-thumbnail: assets/img/form.jpg
-type: vehicle
-
+title: Vehicle Form 2
 ---
 Description
