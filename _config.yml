@@ -45,11 +45,12 @@ plugins:
   - jekyll-feed
 
 collections:
-  dine:
-    output: true
-  escape:
-    output: true
-
+  posts:
+    output: false
+  about-us-blocks:
+    output: false
+  services-blocks:
+    output: false
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
