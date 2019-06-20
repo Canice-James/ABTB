@@ -1,0 +1,38 @@
+---
+layout: default
+---
+<div class="container py-4">
+  <div class="row py-2 ">
+    <div class="col-sm-4">
+      <div class="d-none d-md-block">
+        <img class="img-fluid" src="{{ page.logo-img | relative_url }}" />
+      </div>
+    </div>
+    <div class="col-md-8 d-flex justify-content-center">
+      <div class="align-self-center">
+        <h2>Welcome to {{ page.title }}</h2>
+        <p>{{ page.excerpt }}</p>
+      </div>
+    </div>
+  </div>
+  <div class="row py-4">
+    {{ content }}
+  </div>
+  <div class="row d-flex justify-content-center py-4">
+    <div class="col-4">
+      <!-- Add google map. Add conditional for if location not present get map image instead -->
+      <img class="img-fluid" src="{{ page.map-img }}" />
+    </div>
+    <div class="col-4">
+      <img class="img-fluid" src="{{ page.menu-img }}" />
+    </div>
+    <div class="col-4">
+      <div class="align-self-center py-4">
+        <h2>Contact Us!</h2>
+        <p class="mb-1">{{ page.phone }}</p>
+        <p class="mb-1">{{ page.email }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
