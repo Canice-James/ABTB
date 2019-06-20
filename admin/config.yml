@@ -46,4 +46,5 @@ collections:
     fields: 
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown", required: false}
-      - {label: "Image", name: "image", widget: "image", default: "assets/img/form.jpg"}
+      - {label: "Image", name: "image", widget: "image", required: false}
+      - {label: "Thumbnail", name: "thumbnail", widget: "hidden", default: "assets/img/form.jpg"}
