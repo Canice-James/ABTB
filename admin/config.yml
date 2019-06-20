@@ -27,7 +27,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Image", name: "image", widget: "image"}
-      - {label: "Icon", name: "string", widget: "string"}
+      - {label: "Icon", name: "icon", widget: "string"}
   - name: "forms"
     label: "Forms"
     folder: "_collections/_forms"
@@ -37,4 +37,4 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Image", name: "image", widget: "image"}
-      - {label: "Icon", name: "string", widget: "string"}
+      - {label: "Icon", name: "icon", widget: "string"}
